@@ -1,16 +1,15 @@
+redirectsOrigin = "config"
 plugins = []
 headers = []
-redirects = []
 
 [functions]
 
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\thota\\.gemini\\antigravity\\playground\\ionic-omega\\dist"
-publishOrigin = "ui"
-commandOrigin = "ui"
-base = "C:\\Users\\thota\\.gemini\\antigravity\\playground\\ionic-omega"
+publish = "D:\\Srinath\\meal_planner\\dist"
+publishOrigin = "config"
+commandOrigin = "config"
 command = "npm run build"
 
 [build.environment]
@@ -26,3 +25,15 @@ command = "npm run build"
 [build.processing.js]
 
 [build.services]
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

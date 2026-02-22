@@ -30,9 +30,9 @@ const Layout = ({ children }) => {
           position: sticky;
           top: 0;
           z-index: 100;
-          background: rgba(15, 23, 42, 0.8);
+          background: rgba(255, 255, 255, 0.9);
           backdrop-filter: blur(12px);
-          border-bottom: var(--glass-border);
+          border-bottom: 1px solid var(--border-color);
         }
 
         .navbar-content {
@@ -64,9 +64,9 @@ const Layout = ({ children }) => {
           padding: var(--spacing-lg);
           color: var(--text-muted);
           font-size: 0.875rem;
-          border-top: var(--glass-border);
+          border-top: 1px solid var(--border-color);
           margin-top: var(--spacing-xl);
-          background: rgba(15, 23, 42, 0.4);
+          background: transparent;
         }
         
         .btn-sm {

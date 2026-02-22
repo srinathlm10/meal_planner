@@ -307,7 +307,7 @@ const Dashboard = () => {
 
                     <div className="actions">
                         <button type="submit" className="btn btn-primary" disabled={loading}>
-                            {loading ? 'Saving...' : 'Save Plan'}
+                            {loading ? 'Saving...' : 'Save'}
                         </button>
                     </div>
                 </form>
